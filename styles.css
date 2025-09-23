@@ -1,0 +1,45 @@
+/* Body styles for the overall page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container to hold the page content */
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Styles for the main heading */
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Styles for the paragraph text */
+p {
+    color: #666;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Styles for the image */
+.main-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
